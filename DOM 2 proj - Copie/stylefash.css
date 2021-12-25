@@ -1,0 +1,517 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav11-main-nav
+{
+    height: 60vh;
+}
+
+nav
+{
+    margin-top: 0.3%;
+    background-color: rgb(4, 87, 84);
+    height: 17vh;   
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+
+}
+nav ul li
+{
+    list-style: none;
+    margin-top: 0.2%;
+}
+nav ul li a
+{
+text-decoration: none;
+color: black;
+font-size: 15px;
+font-weight: bold;
+font-family:monospace;
+}
+nav ul li:hover
+{
+background-color: white;
+padding: 0.3%;
+border-radius: 10%;
+
+}
+nav ul li a:hover
+{
+color: black;
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+    margin: 2%;
+    text-align: center;
+    color: rgb(5, 39, 28);
+}
+.shop11-item-title, h2{
+    font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+    text-align: center;
+}
+.shop11-item-image
+{
+    border-radius: 10%;
+}
+.shop11-item-title
+{
+    font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: bold;
+}
+.shop11-item-details
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.shop11-item-price
+{
+    font-size: 140%;
+    font-weight: bold;
+}
+.shop11-item-button
+{
+    padding: 3%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 15%;
+}
+.shop11-item-button:hover
+{
+    background-color: rgb(76, 106, 124);
+    color: white;
+}
+.shop11-item
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin: 2%;
+}
+.shop11-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darkgray;
+    margin: 4%;
+}
+.fashion-models
+{
+    display: block;
+    margin: 4%;
+}
+.FASH-CART
+{
+    color: white;
+    border-bottom: 5px solid white;
+}
+.section11-cart
+{
+    background-color: rgb(49, 49, 49);
+    padding: 2% 10%;
+    margin: 3% 8%;
+}
+.cart11-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid white;
+    margin: 1% 4%;   
+}
+.cart11-row:last-child .cart11-column {
+    border: none;
+}
+.cart11-row:last-child {
+    border-bottom: 3px dashed lightskyblue;
+}
+.cart11-item-image
+{
+    border-radius: 15%;
+}
+.cart11-item-title
+{
+    margin-left: 5%;
+    color: white;
+    font-size: 100%;
+}
+.cart11-row {
+    display: flex;
+}
+
+.cart11-item {
+    width: 35%;
+    color: white;
+    font-size: 120%;
+}
+
+.cart11-price {
+    width: 20%;
+    font-size: 120%;
+    color: white;
+}
+
+.cart11-quantity {
+    width: 30%;
+    color: white;
+    font-size: 120%;
+}
+.btn11-danger {
+    color: white;
+    width: 9vw;
+    height: 6vh;
+    background-color: #8b2b2b;
+    border-radius: 15%;
+    font-weight: bold;
+}
+
+.btn11-danger:hover {
+    background-color: #c97c7c;
+    color: rgb(31, 30, 30);
+}
+
+.cart11-quantity-input {
+    background-color: white;
+    color:rgb(31, 30, 30);
+    margin-right: 2%;
+    width: 4vw;
+    height: 5vh;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 120%;
+    
+}
+.cart11-total {
+    text-align: end;
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.cart11-total-title {
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+    margin-right: 2%;
+}
+
+.cart11-total-price {
+    color: white;
+    font-size: 160%;
+}
+
+.btn11-purchase {
+    display: block;
+    margin: 2% auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 20%;
+    padding: 1%;
+}
+.btn11-purchase:hover
+{
+    background-color: rgb(160, 204, 240);
+    color: rgb(43, 36, 36);
+}
+/*************    view all articles    **********/
+
+.hero
+{
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.hero .carousel
+{
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
+}
+.carousel img
+{
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+}
+.allarticles
+{
+    margin: 5%;
+}
+.viewallbutton
+{
+    width: 10vw;
+    height: 7vh;
+    margin: 0% 45%;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;  
+}
+.viewallbutton:hover
+{
+    background-color: steelblue;
+    color: white;
+}
+.article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*************    FOOOTER    **********/
+footer
+{
+    background-color: black;
+    color: white;
+}
+.footer0
+{
+display: block;
+margin-top: 5%;
+}
+.footer1
+{
+   
+    display: flex; 
+    justify-content: space-around;
+
+}
+.footer2
+{
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+ 
+}
+.EMAIL input, .btn1
+{
+margin-top: 10%;
+padding: 2%;
+}
+
+.EMAIL input
+{
+    border-bottom: 1px solid white;
+}
+.footer2 a
+{
+    border-radius: 30%;
+    text-decoration: none;
+    color: white;
+    font-family:   Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+   
+}
+.needhelp
+{
+    margin: 30% 10%;
+    border: 3px solid white;
+    border-radius: 25% 25%;
+    width: 7vw;  
+    text-align: center;
+    padding: 2%;
+}
+.btn1{
+    font-weight: bold;
+}
+.btn1:hover
+{
+    background-color: rgb(40, 71, 97);
+    color: white;
+}
+.needhelp:hover 
+{
+    background-color: rgb(40, 71, 97);
+}
+.footer3
+{ 
+    display: flex; 
+    justify-content: space-around;
+    width: 33vw;
+}
+.footertitle
+{
+    font-family: cursive;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+    color:  rgb(69, 120, 121);
+    text-align: center;
+}
+.footer4
+{
+    margin-left: 12%;
+}
+.footer4 a
+{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 130%;
+    line-height: 1.9em;
+}
+.footer4 a:hover
+{
+    color:gray;
+}
+.footer5 span
+{
+    margin-left: 10%;
+}
+.footer5
+{
+height: 20vh;
+display: flex;
+align-items: center;
+background-color: cadetblue;
+}
+.TEXT-FOOTER5
+{
+    font-size: 110%;
+}
+.ICO
+{
+    width: 25%;
+}
+
+.ICONS
+{
+    margin-right: 4%;
+}
+#mail:hover
+{
+    color: tomato;
+}
+#twitter:hover
+{
+    color: rgb(0, 68, 255,0.5);
+}
+#liknedin:hover
+{
+    color: rgb(29, 29, 231);
+}
+#github:hover
+{
+    color: black;
+}
+#instagram:hover
+{
+    color: rgb(151, 16, 16);
+}
+/************  VIEW ALL ***********/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+   
+  }
+ 
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+  #myDIV
+  {
+      display: none;
+  }
